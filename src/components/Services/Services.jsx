@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Resume.pdf';
+import res from './res.pdf';
 
 const Services = () => {
   // context
@@ -35,7 +35,7 @@ const Services = () => {
           principles to solve real-world challenges, <br />
           coupled with a commitment to staying updated on emerging <br />trends in software development.
         </spane>
-        <a href={Resume_new} download>
+        <a href={res} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
