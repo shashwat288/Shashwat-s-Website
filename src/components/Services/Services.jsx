@@ -35,7 +35,7 @@ const Services = () => {
           principles to solve real-world challenges, <br />
           coupled with a commitment to staying updated on emerging <br />trends in software development.
         </spane>
-        <a href={Resume} download>
+        <a href={Resume_new} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -76,7 +76,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Programmer"}
             detail={
-              "Leetcode maxRating{1609} & {200+Questions Solved}, codechef{150+ Questions Solved}, gfg{50+ Questions Solved}"
+              "Leetcode maxRating{1615} & {400+ Questions Solved}, codechef{150+ Questions Solved}, gfg{50+ Questions Solved}"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
